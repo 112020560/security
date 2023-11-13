@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Akros.Authorizer.WebApi.props" />
+</Project>

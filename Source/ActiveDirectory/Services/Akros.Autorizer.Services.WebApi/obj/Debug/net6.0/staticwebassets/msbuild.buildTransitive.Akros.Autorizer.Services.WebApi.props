@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Akros.Autorizer.Services.WebApi.props" />
+</Project>

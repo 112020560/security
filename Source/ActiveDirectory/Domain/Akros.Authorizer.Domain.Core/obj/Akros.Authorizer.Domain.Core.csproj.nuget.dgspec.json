@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Core\\Akros.Authorizer.Domain.Core.csproj": {}
+  },
+  "projects": {
+    "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Core\\Akros.Authorizer.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Core\\Akros.Authorizer.Domain.Core.csproj",
+        "projectName": "Akros.Authorizer.Domain.Core",
+        "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Core\\Akros.Authorizer.Domain.Core.csproj",
+        "packagesPath": "D:\\Users\\felipe.alpizar\\.nuget\\packages\\",
+        "outputPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Users\\felipe.alpizar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj": {
+                "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj"
+              },
+              "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Interfaces\\Akros.Authorizer.Domain.Interfaces.csproj": {
+                "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Interfaces\\Akros.Authorizer.Domain.Interfaces.csproj"
+              },
+              "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Infrastructure\\Akros.Authorizer.Infrastructure.Interface\\Akros.Authorizer.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Infrastructure\\Akros.Authorizer.Infrastructure.Interface\\Akros.Authorizer.Infrastructure.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj",
+        "projectName": "Akros.Authorizer.Domain.Entities",
+        "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj",
+        "packagesPath": "D:\\Users\\felipe.alpizar\\.nuget\\packages\\",
+        "outputPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Users\\felipe.alpizar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Interfaces\\Akros.Authorizer.Domain.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Interfaces\\Akros.Authorizer.Domain.Interfaces.csproj",
+        "projectName": "Akros.Authorizer.Domain.Interfaces",
+        "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Interfaces\\Akros.Authorizer.Domain.Interfaces.csproj",
+        "packagesPath": "D:\\Users\\felipe.alpizar\\.nuget\\packages\\",
+        "outputPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Users\\felipe.alpizar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj": {
+                "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Infrastructure\\Akros.Authorizer.Infrastructure.Interface\\Akros.Authorizer.Infrastructure.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Infrastructure\\Akros.Authorizer.Infrastructure.Interface\\Akros.Authorizer.Infrastructure.Interface.csproj",
+        "projectName": "Akros.Authorizer.Infrastructure.Interface",
+        "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Infrastructure\\Akros.Authorizer.Infrastructure.Interface\\Akros.Authorizer.Infrastructure.Interface.csproj",
+        "packagesPath": "D:\\Users\\felipe.alpizar\\.nuget\\packages\\",
+        "outputPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Infrastructure\\Akros.Authorizer.Infrastructure.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Users\\felipe.alpizar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj": {
+                "projectPath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Domain\\Akros.Authorizer.Domain.Entities\\Akros.Authorizer.Domain.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

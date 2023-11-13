@@ -1,0 +1,12 @@
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\bin\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.deps.json
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\bin\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.dll
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\bin\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.pdb
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.csproj.AssemblyReference.cache
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.AssemblyInfo.cs
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.dll
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\refint\Akros.Authorizer.Infrastructure.Data.dll
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\Akros.Authorizer.Infrastructure.Data.pdb
+D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\obj\Debug\net6.0\ref\Akros.Authorizer.Infrastructure.Data.dll

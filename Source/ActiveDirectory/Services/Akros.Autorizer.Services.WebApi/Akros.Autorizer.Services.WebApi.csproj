@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Http" Version="6.4.0" />
+    <PackageReference Include="Asp.Versioning.Mvc" Version="6.4.0" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+
+    <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+    <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.2" />
+    <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Akros.Authorizer.Application.Main\Akros.Authorizer.Application.Main.csproj" />
+    <ProjectReference Include="..\..\Domain\Akros.Authorizer.Domain.Core\Akros.Authorizer.Domain.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Akros.Autorizer.Infrastructure.Directory\Akros.Authorizer.Infrastructure.Directory.csproj" />
+    <ProjectReference Include="..\..\Transversal\Akros.Authorizer.Transversal.Mapper\Akros.Authorizer.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

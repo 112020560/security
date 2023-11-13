@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jDAhQHD/7GNJG3GBdX5ljHanCMhWHd3nexaFMtp97oU=",
+  "Source": "Akros.Authorizer.WebApi",
+  "BasePath": "_content/Akros.Authorizer.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

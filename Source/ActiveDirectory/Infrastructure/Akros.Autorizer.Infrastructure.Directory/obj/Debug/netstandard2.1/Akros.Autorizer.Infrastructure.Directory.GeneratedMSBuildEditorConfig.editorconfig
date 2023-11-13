@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Akros.Autorizer.Infrastructure.Directory
+build_property.ProjectDir = D:\AkrosRepo\DotnetCore\WebApiRest\Source\Akros.Web.Apis\Authorizer\.net6\Infrastructure\Akros.Autorizer.Infrastructure.Directory\

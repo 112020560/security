@@ -1,0 +1,206 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ActiveDirectoryServices", "ActiveDirectoryServices", "{9C7028D3-8CCA-40DA-BEE6-6108A6774A13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{0731F229-DC46-447A-B0D9-379960B86141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManager", "UserManager", "{FE0CA95A-A5CD-450D-BC0B-904BD578563E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{FFB2F41F-91F6-4CC9-B1DF-86FF70E40FDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{25D081BC-28A4-46D2-B5CF-41719DD2353F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Infrastructure.Interface", "ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Interface\Akros.Authorizer.Infrastructure.Interface.csproj", "{18A0166B-A9ED-47D4-9713-4BDD1089242A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Infrastructure.Directory", "ActiveDirectory\Infrastructure\Akros.Autorizer.Infrastructure.Directory\Akros.Authorizer.Infrastructure.Directory.csproj", "{D7B3AAAE-2E7B-4E0D-BA7D-BD52DA0E0848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Infrastructure.Data", "ActiveDirectory\Infrastructure\Akros.Authorizer.Infrastructure.Data\Akros.Authorizer.Infrastructure.Data.csproj", "{C60759B3-CF94-45DD-AF24-83880BBD80B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{220244DC-A282-4E47-9829-01828392EA39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Transversal.Common", "ActiveDirectory\Transversal\Akros.Authorizer.Transversal.Common\Akros.Authorizer.Transversal.Common.csproj", "{B7F937F5-FD66-4AC7-AA13-3A0EA27D71B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Transversal.Mapper", "ActiveDirectory\Transversal\Akros.Authorizer.Transversal.Mapper\Akros.Authorizer.Transversal.Mapper.csproj", "{F55AC4DC-5585-4594-BDB2-596C9BFD1AD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{65755CCE-84F1-4819-806A-6FAEF90FF5E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Domain.Interfaces", "ActiveDirectory\Domain\Akros.Authorizer.Domain.Interfaces\Akros.Authorizer.Domain.Interfaces.csproj", "{1F6F97CC-8B25-4F1B-912C-88662E13383B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Domain.Entities", "ActiveDirectory\Domain\Akros.Authorizer.Domain.Entities\Akros.Authorizer.Domain.Entities.csproj", "{4994C34B-70D1-46CA-AD1B-D3810D6B65F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Domain.Core", "ActiveDirectory\Domain\Akros.Authorizer.Domain.Core\Akros.Authorizer.Domain.Core.csproj", "{BDDDF5D5-E0D5-4A8F-91B5-60E05BF2782C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{2E61AF96-93FF-4BFE-8EDA-72A18E197A8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Application.Dto", "ActiveDirectory\Application\Akros.Authorizer.Application.Dto\Akros.Authorizer.Application.Dto.csproj", "{897241E5-19A7-4A13-BCA7-8C705D3D1BB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Application.Main", "ActiveDirectory\Application\Akros.Authorizer.Application.Main\Akros.Authorizer.Application.Main.csproj", "{A2A042DF-D78A-4294-A1B8-5D057DC2BD23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E85E2005-EF3D-4C60-93EB-DD7CF051CB1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Autorizer.Services.WebApi", "ActiveDirectory\Services\Akros.Autorizer.Services.WebApi\Akros.Autorizer.Services.WebApi.csproj", "{60745454-464C-4A91-BECD-088288CB26A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{3008A7CF-161F-47F6-9187-37D0D90E0D2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{AC2F72E7-01E0-470C-A36D-B797C606E332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{EDB15AFB-A91A-4780-8FBC-30F2E7995E80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Security.UserManager", "UserManager\Akros.Security.UserManager\Akros.Security.UserManager.csproj", "{5A49A098-654E-49F0-A789-82053A9B37FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "old", "old", "{64184837-F36C-499F-A6C9-A76180FFCFCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{5199CCC3-62B1-4D75-9F89-CF7637A449F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B9172554-F6BE-4E40-AF14-FFA83C056C24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2069D18A-FB31-4D6D-8D29-6725F58683EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{005D9457-E154-463D-A91F-32360763B9BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Infrastructure.Persistence", "ActiveDirectory\Src\Infra\Akros.Authorizer.Infrastructure.Persistence\Akros.Authorizer.Infrastructure.Persistence.csproj", "{89EE7A56-4A56-49F9-8F06-C1C8798A8FCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Infrastructure.Mongo", "ActiveDirectory\Src\Infra\Akros.Authorizer.Infrastructure.Mongo\Akros.Authorizer.Infrastructure.Mongo.csproj", "{ACDB1D28-AFEE-46F4-B0B5-77BD5862E641}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Infrastructure.ActiveDirectory", "ActiveDirectory\Src\Infra\Akros.Authorizer.Infrastructure.ActiveDirectory\Akros.Authorizer.Infrastructure.ActiveDirectory.csproj", "{8E4214E2-5179-4A1C-B28D-B2834FA174ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Infrastructure.Shared", "ActiveDirectory\Src\Infra\Akros.Authorizer.Infrastructure.Shared\Akros.Authorizer.Infrastructure.Shared.csproj", "{7BBC7312-EFDE-4290-9034-D64C5C6CDC1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Application", "ActiveDirectory\Src\Core\Akros.Authorizer.Application\Akros.Authorizer.Application.csproj", "{CF83B0EA-3828-4388-9416-8566A4D9E29C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.Domain", "ActiveDirectory\Src\Core\Akros.Authorizer.Domain\Akros.Authorizer.Domain.csproj", "{83BAAD88-1E10-49D7-94D7-DFA24C82055D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akros.Authorizer.WebApi", "ActiveDirectory\Src\Presentation\Akros.Authorizer.WebApi\Akros.Authorizer.WebApi.csproj", "{153CEF1E-5341-4B5D-84EC-42BFE34D7EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A0166B-A9ED-47D4-9713-4BDD1089242A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A0166B-A9ED-47D4-9713-4BDD1089242A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A0166B-A9ED-47D4-9713-4BDD1089242A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A0166B-A9ED-47D4-9713-4BDD1089242A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B3AAAE-2E7B-4E0D-BA7D-BD52DA0E0848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B3AAAE-2E7B-4E0D-BA7D-BD52DA0E0848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B3AAAE-2E7B-4E0D-BA7D-BD52DA0E0848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B3AAAE-2E7B-4E0D-BA7D-BD52DA0E0848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60759B3-CF94-45DD-AF24-83880BBD80B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60759B3-CF94-45DD-AF24-83880BBD80B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60759B3-CF94-45DD-AF24-83880BBD80B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60759B3-CF94-45DD-AF24-83880BBD80B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F937F5-FD66-4AC7-AA13-3A0EA27D71B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F937F5-FD66-4AC7-AA13-3A0EA27D71B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F937F5-FD66-4AC7-AA13-3A0EA27D71B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F937F5-FD66-4AC7-AA13-3A0EA27D71B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55AC4DC-5585-4594-BDB2-596C9BFD1AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55AC4DC-5585-4594-BDB2-596C9BFD1AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55AC4DC-5585-4594-BDB2-596C9BFD1AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55AC4DC-5585-4594-BDB2-596C9BFD1AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6F97CC-8B25-4F1B-912C-88662E13383B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6F97CC-8B25-4F1B-912C-88662E13383B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6F97CC-8B25-4F1B-912C-88662E13383B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6F97CC-8B25-4F1B-912C-88662E13383B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4994C34B-70D1-46CA-AD1B-D3810D6B65F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4994C34B-70D1-46CA-AD1B-D3810D6B65F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4994C34B-70D1-46CA-AD1B-D3810D6B65F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4994C34B-70D1-46CA-AD1B-D3810D6B65F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDDF5D5-E0D5-4A8F-91B5-60E05BF2782C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDDF5D5-E0D5-4A8F-91B5-60E05BF2782C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDDF5D5-E0D5-4A8F-91B5-60E05BF2782C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDDF5D5-E0D5-4A8F-91B5-60E05BF2782C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897241E5-19A7-4A13-BCA7-8C705D3D1BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897241E5-19A7-4A13-BCA7-8C705D3D1BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897241E5-19A7-4A13-BCA7-8C705D3D1BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897241E5-19A7-4A13-BCA7-8C705D3D1BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A042DF-D78A-4294-A1B8-5D057DC2BD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A042DF-D78A-4294-A1B8-5D057DC2BD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A042DF-D78A-4294-A1B8-5D057DC2BD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A042DF-D78A-4294-A1B8-5D057DC2BD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60745454-464C-4A91-BECD-088288CB26A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60745454-464C-4A91-BECD-088288CB26A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60745454-464C-4A91-BECD-088288CB26A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60745454-464C-4A91-BECD-088288CB26A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2F72E7-01E0-470C-A36D-B797C606E332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2F72E7-01E0-470C-A36D-B797C606E332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2F72E7-01E0-470C-A36D-B797C606E332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2F72E7-01E0-470C-A36D-B797C606E332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A49A098-654E-49F0-A789-82053A9B37FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A49A098-654E-49F0-A789-82053A9B37FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A49A098-654E-49F0-A789-82053A9B37FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A49A098-654E-49F0-A789-82053A9B37FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EE7A56-4A56-49F9-8F06-C1C8798A8FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EE7A56-4A56-49F9-8F06-C1C8798A8FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EE7A56-4A56-49F9-8F06-C1C8798A8FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EE7A56-4A56-49F9-8F06-C1C8798A8FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDB1D28-AFEE-46F4-B0B5-77BD5862E641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDB1D28-AFEE-46F4-B0B5-77BD5862E641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDB1D28-AFEE-46F4-B0B5-77BD5862E641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDB1D28-AFEE-46F4-B0B5-77BD5862E641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4214E2-5179-4A1C-B28D-B2834FA174ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4214E2-5179-4A1C-B28D-B2834FA174ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4214E2-5179-4A1C-B28D-B2834FA174ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4214E2-5179-4A1C-B28D-B2834FA174ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBC7312-EFDE-4290-9034-D64C5C6CDC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBC7312-EFDE-4290-9034-D64C5C6CDC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBC7312-EFDE-4290-9034-D64C5C6CDC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBC7312-EFDE-4290-9034-D64C5C6CDC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF83B0EA-3828-4388-9416-8566A4D9E29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF83B0EA-3828-4388-9416-8566A4D9E29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF83B0EA-3828-4388-9416-8566A4D9E29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF83B0EA-3828-4388-9416-8566A4D9E29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83BAAD88-1E10-49D7-94D7-DFA24C82055D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BAAD88-1E10-49D7-94D7-DFA24C82055D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BAAD88-1E10-49D7-94D7-DFA24C82055D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BAAD88-1E10-49D7-94D7-DFA24C82055D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153CEF1E-5341-4B5D-84EC-42BFE34D7EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153CEF1E-5341-4B5D-84EC-42BFE34D7EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153CEF1E-5341-4B5D-84EC-42BFE34D7EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153CEF1E-5341-4B5D-84EC-42BFE34D7EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFB2F41F-91F6-4CC9-B1DF-86FF70E40FDB} = {64184837-F36C-499F-A6C9-A76180FFCFCA}
+		{25D081BC-28A4-46D2-B5CF-41719DD2353F} = {FFB2F41F-91F6-4CC9-B1DF-86FF70E40FDB}
+		{18A0166B-A9ED-47D4-9713-4BDD1089242A} = {25D081BC-28A4-46D2-B5CF-41719DD2353F}
+		{D7B3AAAE-2E7B-4E0D-BA7D-BD52DA0E0848} = {25D081BC-28A4-46D2-B5CF-41719DD2353F}
+		{C60759B3-CF94-45DD-AF24-83880BBD80B5} = {25D081BC-28A4-46D2-B5CF-41719DD2353F}
+		{220244DC-A282-4E47-9829-01828392EA39} = {FFB2F41F-91F6-4CC9-B1DF-86FF70E40FDB}
+		{B7F937F5-FD66-4AC7-AA13-3A0EA27D71B8} = {220244DC-A282-4E47-9829-01828392EA39}
+		{F55AC4DC-5585-4594-BDB2-596C9BFD1AD1} = {220244DC-A282-4E47-9829-01828392EA39}
+		{65755CCE-84F1-4819-806A-6FAEF90FF5E0} = {FFB2F41F-91F6-4CC9-B1DF-86FF70E40FDB}
+		{1F6F97CC-8B25-4F1B-912C-88662E13383B} = {65755CCE-84F1-4819-806A-6FAEF90FF5E0}
+		{4994C34B-70D1-46CA-AD1B-D3810D6B65F5} = {65755CCE-84F1-4819-806A-6FAEF90FF5E0}
+		{BDDDF5D5-E0D5-4A8F-91B5-60E05BF2782C} = {65755CCE-84F1-4819-806A-6FAEF90FF5E0}
+		{2E61AF96-93FF-4BFE-8EDA-72A18E197A8F} = {FFB2F41F-91F6-4CC9-B1DF-86FF70E40FDB}
+		{897241E5-19A7-4A13-BCA7-8C705D3D1BB7} = {2E61AF96-93FF-4BFE-8EDA-72A18E197A8F}
+		{A2A042DF-D78A-4294-A1B8-5D057DC2BD23} = {2E61AF96-93FF-4BFE-8EDA-72A18E197A8F}
+		{E85E2005-EF3D-4C60-93EB-DD7CF051CB1A} = {FFB2F41F-91F6-4CC9-B1DF-86FF70E40FDB}
+		{60745454-464C-4A91-BECD-088288CB26A9} = {E85E2005-EF3D-4C60-93EB-DD7CF051CB1A}
+		{3008A7CF-161F-47F6-9187-37D0D90E0D2E} = {0731F229-DC46-447A-B0D9-379960B86141}
+		{AC2F72E7-01E0-470C-A36D-B797C606E332} = {3008A7CF-161F-47F6-9187-37D0D90E0D2E}
+		{EDB15AFB-A91A-4780-8FBC-30F2E7995E80} = {FE0CA95A-A5CD-450D-BC0B-904BD578563E}
+		{5A49A098-654E-49F0-A789-82053A9B37FE} = {EDB15AFB-A91A-4780-8FBC-30F2E7995E80}
+		{64184837-F36C-499F-A6C9-A76180FFCFCA} = {9C7028D3-8CCA-40DA-BEE6-6108A6774A13}
+		{5199CCC3-62B1-4D75-9F89-CF7637A449F1} = {9C7028D3-8CCA-40DA-BEE6-6108A6774A13}
+		{B9172554-F6BE-4E40-AF14-FFA83C056C24} = {5199CCC3-62B1-4D75-9F89-CF7637A449F1}
+		{2069D18A-FB31-4D6D-8D29-6725F58683EE} = {5199CCC3-62B1-4D75-9F89-CF7637A449F1}
+		{005D9457-E154-463D-A91F-32360763B9BB} = {5199CCC3-62B1-4D75-9F89-CF7637A449F1}
+		{89EE7A56-4A56-49F9-8F06-C1C8798A8FCC} = {2069D18A-FB31-4D6D-8D29-6725F58683EE}
+		{ACDB1D28-AFEE-46F4-B0B5-77BD5862E641} = {2069D18A-FB31-4D6D-8D29-6725F58683EE}
+		{8E4214E2-5179-4A1C-B28D-B2834FA174ED} = {2069D18A-FB31-4D6D-8D29-6725F58683EE}
+		{7BBC7312-EFDE-4290-9034-D64C5C6CDC1F} = {2069D18A-FB31-4D6D-8D29-6725F58683EE}
+		{CF83B0EA-3828-4388-9416-8566A4D9E29C} = {B9172554-F6BE-4E40-AF14-FFA83C056C24}
+		{83BAAD88-1E10-49D7-94D7-DFA24C82055D} = {B9172554-F6BE-4E40-AF14-FFA83C056C24}
+		{153CEF1E-5341-4B5D-84EC-42BFE34D7EF1} = {005D9457-E154-463D-A91F-32360763B9BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B1F9789-7EA0-48E7-A514-1595CD6CDCD5}
+	EndGlobalSection
+EndGlobal

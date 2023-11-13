@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Akros.Authorizer.Domain.Core
+build_property.ProjectDir = D:\AkrosRepo\.net6\AkrosSecurity\Source\ActiveDirectory\Domain\Akros.Authorizer.Domain.Core\

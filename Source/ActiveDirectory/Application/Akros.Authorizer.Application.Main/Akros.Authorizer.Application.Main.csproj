@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
+    <!--<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Akros.Authorizer.Domain.Entities\Akros.Authorizer.Domain.Entities.csproj" />
+    <ProjectReference Include="..\..\Domain\Akros.Authorizer.Domain.Interfaces\Akros.Authorizer.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Transversal\Akros.Authorizer.Transversal.Common\Akros.Authorizer.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Akros.Authorizer.Application.Dto\Akros.Authorizer.Application.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

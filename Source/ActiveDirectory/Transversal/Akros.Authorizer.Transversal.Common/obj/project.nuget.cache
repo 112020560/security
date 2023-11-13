@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nv4IINQ2IvGwKK/K+jBJ1pH3F8PYliysznOcKN8YTxg3PR4QMM9+zvlSl6zPj8EqMQfuoTVqLuiC0feOFGfdzg==",
+  "success": true,
+  "projectFilePath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Transversal\\Akros.Authorizer.Transversal.Common\\Akros.Authorizer.Transversal.Common.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

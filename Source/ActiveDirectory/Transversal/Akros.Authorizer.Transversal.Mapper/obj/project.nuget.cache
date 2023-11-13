@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "+lJDigwGJScnIJKsfoK5JfwlkNyabmaBd1hIDXmyOI31dNGk3n4hToW4eAzlUHG9jDyirweRQLcOlUFyDmyJdg==",
+  "success": true,
+  "projectFilePath": "D:\\AkrosRepo\\.net6\\AkrosSecurity\\Source\\ActiveDirectory\\Transversal\\Akros.Authorizer.Transversal.Mapper\\Akros.Authorizer.Transversal.Mapper.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\system.text.json\\6.0.6\\system.text.json.6.0.6.nupkg.sha512",
+    "D:\\Users\\felipe.alpizar\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
